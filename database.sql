@@ -12,7 +12,7 @@ CREATE TABLE tb_dosen (
       dosen_nip VARCHAR(25) NOT NULL,
       dosen_nama VARCHAR(100) NOT NULL,
       dosen_jabatan VARCHAR(100) DEFAULT NULL,
-      dosen_golongan VARCHAR(100) DEFAULT NULL,
+      dosen_mengajar VARCHAR(100) DEFAULT NULL,
       PRIMARY KEY(dosen_id),
       UNIQUE KEY(dosen_nip)
 );
